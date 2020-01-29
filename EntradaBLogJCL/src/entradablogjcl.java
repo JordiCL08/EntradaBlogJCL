@@ -1,12 +1,12 @@
 /**
  * Clase para manejar las entradas de un blog.
  * @since 29/01/2020
- * @author  Jordi Codevila de León
+ * @author  Jordi Codevila de LeÃ³n
  * @version 2.4
  *
  */
 public class entradablogjcl{
-	//separador es el ccarácter que separa ENTRADA DE del
+	//separador es el ccarÃ¡cter que separa ENTRADA DE del
 	//nombre del autor
 	
 	private static char separador=':';
@@ -16,9 +16,9 @@ public class entradablogjcl{
 	
 	
 	/**
-	 * Constructor de la clase. recibe el número de entrada, el nombre del autor
-	 *	de la entrada y el texto que contiene la entrada. Si el número de entrada
-	 *	es negativo, lanza una excepción.
+	 * Constructor de la clase. recibe el nÃºmero de entrada, el nombre del autor
+	 *	de la entrada y el texto que contiene la entrada. Si el nÃºmero de entrada
+	 *	es negativo, lanza una excepciÃ³n.
 	 * @param id
 	 * @param autor
 	 * @param texto
@@ -39,7 +39,7 @@ public class entradablogjcl{
 	}
 	
 	/**
-	 * @return el número de la entrada
+	 * @return el nÃºmero de la entrada
 	 */
 	public int getId(){
 		return this.id;
@@ -55,7 +55,7 @@ public class entradablogjcl{
 	
 	
 	/**
-	 * @return el nombre del autor de la entrada en mayúsculas
+	 * @return el nombre del autor de la entrada en mayÃºsculas
 	 */
 	public String getAutor(){
 		return this.autor.toUpperCase();
@@ -71,11 +71,11 @@ public class entradablogjcl{
 	
 
 	/**
-	 * @param args No tiene porqué tener argumentos.
+	 * @param args No tiene porquÃ© tener argumentos.
 	 */
 	public static void main(String[] args) {
                 //Modificar.
-		entradablogjcl e1=new entradablogjcl (-3,"ana","Últimas noticias, está disponible BixBy 2.0");
+		entradablogjcl e1=new entradablogjcl (-3,"jordi","Ãšltimas noticias, estÃ¡ disponible BixBy 2.0");
 		System.out.println(e1);
 	}
 	/**
